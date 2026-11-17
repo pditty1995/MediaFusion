@@ -146,4 +146,3 @@ search.addEventListener('input',render);group.addEventListener('change',render);
 @app.get("/pluto-guide", response_class=HTMLResponse)
 async def pluto_guide() -> HTMLResponse:
     return HTMLResponse(PAGE)
-'''
